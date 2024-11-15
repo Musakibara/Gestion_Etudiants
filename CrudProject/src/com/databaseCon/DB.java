@@ -17,7 +17,7 @@ public class DB {
     
     public static Connection con = null; // when is static means we can use it 
     
-    // method to connect to database using xammpp
+    // method to connect to database using xampp
     public static void loadConnection() {
         String url = "jdbc:mysql://localhost:3306/javacrud_db";
         String root = "root";
